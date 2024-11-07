@@ -218,8 +218,8 @@ def plot_results(
     plt.xticks(fontsize = 16)
     plt.yticks(fontsize = 16)
     ax1.set_box_aspect(1)
-    plt.ylim(-23,-5)
-    plt.xlim(5.,14.3)
+    plt.ylim(0,-30)
+    plt.xlim(15,35)
 
     # Create axes for plotting the gas fractions as a function of step #
     ax2 = plt.subplot2grid((2,4), (1,2), colspan=2, rowspan=1)
