@@ -120,7 +120,7 @@ def plot_results(
             "--",
             linewidth=frac_weights[i],
             zorder=0,
-            color = (0.1725, 0.6275, 0.1725),
+            color = (0.00392156862745098, 0.45098039215686275, 0.6980392156862745),
             alpha = 0.5
         )
     
@@ -219,7 +219,7 @@ def plot_results(
     plt.yticks(fontsize = 16)
     ax1.set_box_aspect(1)
     plt.ylim(-30,0)
-    plt.xlim(14,32.5)
+    plt.xlim(11.5,32.5)
 
     # Create axes for plotting the gas fractions as a function of step #
     ax2 = plt.subplot2grid((2,4), (1,2), colspan=2, rowspan=1)
